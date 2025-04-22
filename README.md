@@ -1,37 +1,64 @@
-## Installation
+# 💼 Career Connect - Job Application Tracker
 
-Follow these steps to set up the Job Applications Tracker website on your local machine:
+Career Connect is a powerful, full-featured **Job Application Tracker** built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js). It helps job seekers **manage**, **track**, and **analyze** their job applications from a beautiful, responsive dashboard.
 
-### Prerequisites
+---
 
-- Node.js and npm installed on your system.
+## 📌 Table of Contents
 
-### 1. Clone the repository
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Installation (Step-by-step)](#-installation-step-by-step)
+- [Environment Variables](#-environment-variables)
+- [Usage](#-usage)
+- [Scripts](#-scripts)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Author](#-author)
 
-```bash
-git clone https://github.com/anoop7384/job-application-tracker.git
-```
+---
 
-### 2. Install dependencies for both frontend and backend
+## ✅ Features
 
-```bash
-# Frontend
-cd client
-npm install
+- 🧾 **User Authentication** (JWT-based)
+- 🗂️ Add, edit, delete job applications
+- 📊 Real-time stats dashboard
+- 🔍 Filter jobs by status, type, or search keywords
+- 📅 Track application stages (Interview, Pending, Declined)
+- 🎨 Beautiful and responsive UI (mobile-friendly)
+- 🧠 Built with Redux Toolkit for state management
 
-# Backend
-npm install
-```
+---
 
-### 3. Start the development servers
+## 🖼️ Screenshots
 
-```bash
-# Frontend
-cd client
-npm run dev
+Add these inside a `/screenshots` folder in your repo:
 
-# Backend
-node server.js
-```
+- ![Dashboard](./screenshots/dashboard-1.png)
+- ![Add Job Form](./screenshots/add-job.png)
+- ![Stats](./screenshots/stats.png)
 
-The frontend will be available at http://localhost:5173, and the backend will be running on http://localhost:9000.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- Redux Toolkit
+- Axios
+- React Router
+- CSS Modules
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- JSON Web Token (JWT)
+- dotenv, bcrypt, cookie-parser
+
+---
+
+## 📁 Project Structure
+
