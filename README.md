@@ -1,8 +1,3 @@
-Here’s an enhanced and well-structured `README.md` for your **Career Connect** project. This version includes a project overview, features, folder structure, setup instructions, and contribution guidelines to make it more developer-friendly:
-
----
-
-```markdown
 # Career Connect
 
 Career Connect is a MERN stack-based career platform designed to connect job seekers and recruiters seamlessly. It features user authentication, job posting and browsing, and a responsive frontend interface.
@@ -136,7 +131,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 For issues, suggestions, or contributions:  
 **Chirag** – [GitHub Profile](https://github.com/Chirag12216570)
-
-```
-
-Let me know if you want a version with badges, visuals (screenshots or GIFs), or automated scripts.
